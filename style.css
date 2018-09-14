@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Makes h1 font weight lighter */
+h1 {
+    font-weight: 200;
+}
+
+/* removes styling from list items */
+ul {
+    list-style:none;
+}
+
+li {
+    margin-top:16px;
+}
+/* this is the container that contains all my content */
+.container {
+    max-width:900px;
+    margin:auto;
+}
+
+/* This sizes my profile photo */
+.profile {
+    height:150px;
+    width:150px;
+}
+
+
+/* this is centering my intro */
+.intro {
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this is a wrapper for my class projects, space-between moves both items to the right and the left */
+.work_wrapper {
+    display:flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
