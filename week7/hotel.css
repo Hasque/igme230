@@ -1,0 +1,24 @@
+.form-wrapper {
+    display:flex;
+    flex-direction:column;
+    align-items:center;    
+    margin:auto;
+    border: 2px solid black;
+    width:300px;
+    padding:100px;
+    margin-top:150px;
+    border-radius:50px;
+}
+
+.message {
+
+    margin-top:50px;
+}
+
+.email {
+    margin-top:50px;
+}
+
+.name {
+
+}
