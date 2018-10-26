@@ -64,12 +64,12 @@
 
         element.appendChild(text); //adds the content from let text into the <li> created by element
 
-        let list = document.getElementById(listElement); //connects list to the "colorsList" ol
+        let list = document.getElementById(listElement); //connects list to the parameter List element
         list.appendChild(element); //adds all content into the ol
         }
     }
 
-    createList("colorsList", colors);
+    createList("colorsList", colors); 
     createList("foodsList", foods);
 
     
