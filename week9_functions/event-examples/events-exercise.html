@@ -41,7 +41,34 @@
 </div>
 
 <script>
-/* Write your code here! */
+	let currentColor; //makes a global variable
+	let radios = document.getElementsByName("colorGroup"); //creates an array out of the color groups because there are multiple "colorGroups"
+	let button = document.getElementById("colorButton");
+	button.onclick = buttonHandler;
+
+	for (let i of radios) { // i of radious
+		i.onclick = clickHandler; // runs clickhandler function
+	}
+
+	function clickHandler(element) {
+		let para = document.getElementById("info");
+		currentColor = element.target.value;
+
+		para.innerHTML = "The color you selected is: " + element.target.value // takes the value of the button picked.
+	}
+
+	function buttonHandler() {
+		let para = document.getElementById("info")
+
+		para.innerHTML = "The color you selected is: " + currentColor // takes the value of the button picked.
+
+		let legend = document.getElementsByTagName("legend")[0];
+		legend.style.backgroundColor = currentColor;
+
+	}
+
+
+
 </script>
 </body>
 </html>
