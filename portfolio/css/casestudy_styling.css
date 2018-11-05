@@ -1,0 +1,936 @@
+/* This is the CSS used for my casestudy styling
+   The Index.html document was so complex so I made a seperate sheet
+*/
+
+
+a:visited {
+	color:white;
+}
+/* Setting overall values */
+
+h5  {
+	margin-bottom:8px;
+}
+body {
+	color:rgba(0,0,0,.84);
+
+}
+
+nav p{
+	font-weight:200;
+}
+
+.green {
+	color:#A3E77A;
+}
+.nomargin {
+	height:auto;
+
+	width:250px;
+	margin-top:72px;
+}
+.little-space {
+	margin-top:16px;
+}
+.questions-title {
+	font-size:24px;
+}
+.iphone-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:72px;
+}
+.iphone-resizing {
+	width:250px;
+
+}
+.conclusion-paragraph {
+	margin-top:24px;
+}
+.blue-streak {
+		width: 100%;
+	height: 279px;
+	background-color: #087fec;
+	position: absolute;
+	border-radius: 33px;
+	z-index:-5;
+	transform:translateX(-20%);
+	transform:translateY(45%);
+}
+
+
+
+
+.intro-text {
+	font-size:24px;
+	text-align:center;
+	margin-bottom:72px;
+	margin-top:24px;
+}
+
+.intro-wrapper {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-flex {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin-top:30px;
+}
+.logo{
+	width:120px;
+	height:auto;
+}
+
+.iphonex {
+	width:250px;
+}
+.black {
+	color:#3D3D3D;
+}
+.final-designs {
+	margin-top:72px;
+	color:#4F95F0;
+
+}
+
+.screen-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.screen-sizing {
+	width:80%;
+	height:auto;
+}
+
+.sketch-sizing {
+	width:100%;
+	height:auto;
+}
+
+/* The titles throughout my casestudies */
+.flow-title {
+	font-size:24px;
+	color:#087FEC;
+	margin-top:72px;
+	text-align:center;
+}
+
+.flow-holder {
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mobile-hide {
+	display:none;
+}
+
+
+.interview-box {
+	margin-top:72px;
+}
+.interview-flex {
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+
+}
+
+.interview-title {
+	font-size:24px;
+	letter-spacing: .2px;
+
+}
+
+.extra-margin {
+	margin-bottom:32px;
+}
+
+.text-box{
+  width:273px;
+}
+
+.small-line{
+  width:3px;
+  height:95px;
+  background-color:#087FEC;
+  margin-right:5px;
+}
+
+.quote-text {
+	font-size:20px;
+	color:#878787;
+	width:300px;
+}
+
+.quote-box {
+  display:flex;
+}
+
+
+
+.remove-margin {
+	margin-top:0;
+}
+
+
+
+/* Stor Casestudy underlining text to show process */
+.situation {
+	border-bottom: 2px solid #5147FF;
+}
+
+.motivation {
+	border-bottom: 2px solid #F9AD81;
+}
+
+.expected-outcome {
+	border-bottom: 2px solid #A3E77A;
+
+}
+
+
+.renter {
+	font-size:24px;
+	margin-top:72px;
+}
+
+.jobstory {
+	font-size:18px;
+	margin-top:24px;
+}
+
+
+.purpose-1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.purpose-1 p {
+	margin-left:8px;
+	color:#5147ff;
+}
+
+
+.purpose-2 {
+	margin-top:20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.purpose-2 p {
+	margin-left:8px;
+	color:#F9AD81;
+}
+
+
+.purpose-3 {
+	margin-top:20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.purpose-3 p {
+	margin-left:8px;
+	color:#A3E77A;
+}
+
+
+/* Stor Casestudy underlining text to show process - Job Stories */
+.oval {
+	width: 39px;
+	height: 39px;
+	background: #5147ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+.oval-2 {
+	width: 39px;
+	height: 39px;
+	background: #F9AD81;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.oval-3 {
+	width: 39px;
+	height: 39px;
+	background: #A3E77A;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.job-circles {
+	display: flex;
+	flex-direction: column;
+	margin-top:72px;
+	margin-left:30%;
+}
+/* Stor Casestudy underlining text to show process - Job Stories */
+
+
+.competitors {
+	font-size:24px;
+	color:#087FEC;
+}
+
+.competitor-photo {
+	width: 240px
+}
+.competitor-wrapper {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.divider-line {
+	margin-top:32px;
+		width: 100%;
+	height: 1px;
+	background-color: #ececec;
+}
+
+.observations {
+	margin-top:32px;
+}
+
+.more-margin {
+	margin-top:52px;
+}
+
+.bullet-margin {
+	margin-top:12px;
+}
+
+.competitors-margin {
+	margin-top:72px;
+}
+
+.flow-resized{
+	height: auto;
+	width:300px;
+}
+.retina-resized{
+	height:auto;
+	width:100%;
+	margin-top:72px;
+}
+.end-project a {
+	color:inherit;
+}
+
+.overview h5 {
+	margin-bottom:8px;
+	font-size:16px;
+}
+
+
+.overview-rundown {
+	margin-top:32px;
+	max-width:370px;
+	margin-top:32px;
+	font-size:18px;
+}
+
+.overview-rundown h5 {
+	font-size:16px;
+	margin-bottom:8px;
+}
+
+.overview {
+	max-width:370px;
+}
+
+
+.results {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+	margin-top:50px;
+}
+
+.results h1 {
+	font-size:36px;
+}
+
+.mobile-overview {
+	width:100%;
+	margin-top:100px;
+}
+.hide-desktop {
+	display:none;
+}
+
+.blue-background {
+		height:800px;
+		background-color:#4F95F0;
+
+}
+
+.blue-background-2 {
+	background-color:#4F95F0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.casestudy-intro-text{
+	padding-top:50px;
+	text-align:center;	
+	color:white;
+}
+
+
+
+.phone1-resized {
+	width:100%;
+	max-width:300px;
+	height:auto;
+
+}
+
+.intro-phone {
+	display:flex;
+	justify-content: center;
+	align-items: center
+}
+.white-text {
+	font-weight: bold;
+	color:white;
+	font-size:36px;
+}
+
+
+
+.cofolios-intro p {
+	font-size:16px;
+}
+
+.CTA-button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:114px;
+    height:10px;
+    padding-top:18px;
+    padding-bottom:18px;
+    background:#3D3D3D;
+    font-size:14px;
+    border-radius:10px;
+    margin-bottom:70px;
+    margin-top:40px;
+    color:white;
+}
+
+.CTA-casestudy{
+	display:none;
+}
+
+.overview{
+	font-size:18px;
+}
+
+.overview-container {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+
+
+.challenge-text {
+	margin:auto;
+	margin-top:150px;
+	margin-bottom:150px;
+	display:flex;
+	flex-direction: column;
+	max-width: 620px;
+}
+
+.challenge-text p {
+	font-size:24px;
+}
+
+.challenege-text h5 {
+	font-size:16px;
+	margin-bottom:0px;
+}
+
+
+
+.approach {
+	margin-top:100px;
+	display: flex;
+	justify-content: center;
+}
+
+.casestudy-header {
+	margin-top:100px;
+	display:flex;
+	justify-content: center;
+	  font-size:32px;
+
+}
+
+.blue {
+	color:#4F95F0;
+}
+
+/* Cofolios Casestudy Quotes */
+
+.quotes {
+	margin-top:72px;
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+	align-items: center;
+}
+
+.quotes h5 {
+	font-style:italic;
+}
+
+.description {
+	max-width:540px;
+	margin-bottom:50px;
+}
+
+
+
+.description-holder {
+	margin-top:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.right-side {
+	margin-top:32px;
+}
+
+.mobile-image-center {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.google-selection {
+	width:200px;
+	height:auto;
+	margin-top:72px;
+}
+
+.google-selection-desktop {
+	display: none;
+}
+
+.list-padding {
+	margin-top:12px;
+}
+
+.networking-resized {
+	width:80%;
+	height: auto;
+	margin-top:72px;
+}
+
+.desktop-sketch {
+	display:none;
+}
+
+.mobile-resized {
+	width:250px;
+	height:auto;
+}
+
+.extra-margin-bottom {
+	margin-bottom: 72px
+}
+
+.end-shot-resized{
+	height:auto;
+	width:100%;
+	padding-top:100px;
+}
+
+.blue-background-end{
+	background-color:#4F95F0;
+}
+
+
+
+.thanks {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:200px;
+}
+
+/* At the end of every casestudy I have a little guy for the delight */
+
+.thanks-guy {
+	margin-top:50px;
+}
+
+.project1-resized{
+	width:100%;
+	height:auto;
+}
+
+.flex-projects {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.end-project {
+
+	margin-top:240px;
+}
+
+.end-project p:nth-child(2) {
+	font-size:20px;
+}
+.end-project p:nth-child(3) {
+	color:#C8D3DE;
+	margin-bottom:12px;
+}
+.project2{
+	margin-top:40px;
+}
+
+.overview-images {
+	width:80%;
+	height:auto;
+}
+
+.overview-flexor {
+		margin-top:100px;
+	margin-bottom:100px;
+}
+
+.end-project-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom:100px;
+}
+
+.end-project h5 {
+	font-size:32px;
+	margin-bottom:72px;
+}
+/*      DESKTOP BREAKPOINT     */
+@media only screen  and (min-width : 1024px) {
+
+.margin-bottom {
+	margin-bottom:100px;
+}
+
+.less-margin {
+	margin-top:0px;
+}
+
+.structure-sizing {
+	height:auto;
+	width:1000px;
+	
+}
+
+
+.nomargin {
+	height:auto;
+
+	width:400px;
+	margin-top:72px;
+}
+
+
+.blue-streak-case {
+		width: 190%;
+	height: 279px;
+	background-color: #087fec;
+	position: absolute;
+	border-radius: 33px;
+	right: 0;
+	z-index:-5;
+	transform:translateX(-100%);
+	transform:translateY(45%);
+}
+
+
+.blue-streak {
+		width: 800px;
+	height: 279px;
+	border-radius: 33px;
+	background-color: #087fec;
+	position: absolute;
+	z-index:-5;
+	transform:translateX(-50%);
+}
+.main-flex {
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top:100px;
+}
+
+.intro-wrapper {
+	align-items:left;
+}
+
+.intro-text {
+	text-align: left;
+	width:300px;
+}
+
+.screen-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.screen-sizing {
+	width:300px;
+}
+
+.sketch-sizing {
+	width:1000px;
+}
+.flex-all {
+	display: flex;
+	align-items: center;
+	margin-top:32px;
+}
+.mobile-hide {
+	display:block;
+}
+
+.desktop {
+	display: none;
+}
+.drop-off-margin {
+	margin-top:130px;
+}
+
+.interview-margin {
+	margin-top:52px;
+}
+
+.interview-flex {
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+
+.jobstory {
+	font-size:24px;
+}
+
+.job-circles {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left:0;
+
+}
+
+.competitor-wrapper{
+	align-items: left;
+}
+.text-box-holder {
+	width:300px;
+}
+
+.big-flexor {
+	margin-top:72px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.competitors-margin {
+	margin-top:0px;
+}
+
+.CTA-casestudy p {
+	color:white;
+}
+.project1-resized{
+	width:340px;
+	height:auto;
+}
+
+.casestudy-header {
+	font-size:48px;
+}
+
+.overview {
+	width: 370px;
+}
+
+.overview-flexor {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.mobile-overview{
+	width:100%;
+	height:auto;
+	margin-top:0px;
+}
+
+.overview-images {
+	width:900px;
+	height:auto;
+}
+
+
+.special-background {
+	padding-bottom:310px;
+}
+.hide-desktop {
+	display:block;
+}
+.hide-mobile {
+
+	display: none;
+}
+
+
+
+.intro-phone {
+	float:left;
+}
+
+.casestudy-intro-text{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	color:white;
+	float:right;
+	margin-top:270px;
+}
+
+.CTA-button {
+	display:none;
+}
+
+.nomargins {
+	margin-top:72px;
+}
+.phone1-resized {
+	width:400px;
+	max-width:none;
+	margin-top:130px;
+}
+.CTA-casestudy{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top:50px;
+    width:114px;
+    height:10px;
+    padding-top:18px;
+    padding-bottom:18px;
+    background:#3D3D3D;
+    font-size:14px;
+    border-radius:10px;
+   	box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.overview {
+	max-width:370px;
+}
+
+
+.blue-background-2 {
+}
+
+.challenge-text p {
+	font-size:24px;
+}
+
+
+
+
+.google-selection {
+	display: none;
+}
+
+.google-selection-desktop {
+	display: block;
+	height:auto;
+	width:620px;
+	margin-top:72px;
+}
+
+.companies-negative-margin {
+	margin-top:-141px;
+}
+
+.networking-resized {
+	width:600px;
+	height: auto;
+	margin-top:72px;
+}
+
+.sketches {
+	margin-bottom:120px;
+}
+.row-phones-resized {
+	width:80%;
+	height:auto;
+	position:relative;
+	margin-top:-320px;
+}
+
+
+.results h1 {
+	font-size:64px;
+}
+
+
+
+.flex-projects {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+}
+
+
+
+.project2{
+	margin-top:0px;
+	margin-left:20px;
+}
+
+
+}

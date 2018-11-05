@@ -1,0 +1,662 @@
+body {
+	font-family:Roboto;
+
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('../font/circular-bold.woff'); /* IE9 Compat Modes */
+  src: url('../font/circular-bold.woff') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/circular-bold.woff') format('woff2'), /* Super Modern Browsers */
+       url('../font/circular-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/circular-bold.woff')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/circular-bold.woff') format('svg'); /* Legacy iOS */
+}
+
+.blue {
+	color:#4F95F0;
+}
+a {
+	text-decoration: none;
+}
+
+nav a {
+	color:white;
+}
+
+nav a:visited {
+	color:white;
+}
+
+nav a:hover {
+	color:white;
+}
+
+
+
+
+nav a:visited {
+	color:white;
+}
+
+
+p {
+	margin:0;
+}
+
+h4 {
+	font-family:Roboto;
+	font-size:24px;
+	color:#FAFAFA;
+}
+
+li {
+	display:inline;
+	font-size:16px;
+}
+
+
+nav {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top:20px;
+	color:white;
+}
+
+ol {
+	margin-top:20px;
+}
+
+li:nth-child(2){
+	margin-left:60px;
+	margin-right:60px;
+}
+
+/* Navigation paragraph styles */
+
+nav p {
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+}
+
+
+.iphonex-resize{
+	max-width: 200px;
+	height:auto;
+}
+
+/* My profile headshot */
+
+.my-face {
+	width:300px;
+	margin-top:30px;
+	height: auto;
+}
+
+
+.intro .about-me h1 {
+	font-size:64px;
+}
+
+/* My profile headshot */
+
+.face-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.about-me {
+	margin-top:150px;
+	font-size:64px;
+}
+
+.about-me-text {
+	max-width:370px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.about-me-text p {
+	font-size:16px;
+	margin-top:32px;
+}
+
+.about-me-text h2{
+	max-width:460px;
+	font-size:32px;
+	font-family:'Circular';
+}
+
+.hasque-email {
+	margin-top:32px;
+}
+
+.about-me-flex {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Black background gradient at the bottom */
+.black-background {
+	background-image: linear-gradient(to bottom, #282828, #121212);
+}
+
+.intro-background {
+	height:800px;
+	background-color:#4F95F0;
+}
+
+
+/* Golden lines */
+.gold-rectangle{
+	width:36px;
+	height:77px;
+	background-color: #ffe29c;
+	position:absolute;
+	margin-top:203px;
+}
+
+
+
+
+/*Intro Text container */
+
+.intro{
+	padding-top:80px;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+
+/*Intro Text Font */
+.intro h1 {
+	color:white;
+	font-family:Circular;
+	font-weight:book;
+	font-size:72px;
+
+}
+
+/*SVG Image of character */
+
+.svg-intro {
+	margin-top:120px;
+	height: auto;
+}
+
+/*Intro Text */
+
+.intro-text-box{
+	max-width:500px;
+	padding-top:100px;
+}
+.intro p {
+	color:white;
+	font-size:30px;
+}
+
+
+
+
+
+/*Scroll lines */
+.scroll-box{
+	width:50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:auto;
+
+}
+.scroll-lines {
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+	align-self:center;
+	position: relative;
+	margin-top:224px;
+	width:100%;
+	z-index:1;
+}
+
+
+
+
+/* First Project */
+
+
+.white-background{
+	height:300px;
+	background-color:#FAFAFA;
+	overflow:hidden;
+	display:none;
+}
+
+
+
+.cofolios{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin-top:70px;
+	margin-bottom:34px;
+}
+
+/* First Project */
+.cofolios-resize{
+	width:100%;
+	max-width:400px;
+	height:auto;
+}
+
+/* Blue Line above Text */
+.gold-divider{
+	width: 64px;
+	height: 4px;
+	background-color: #4F95F0;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+/* Project Title */
+.project-text h2{
+	font-family:Roboto;
+	font-weight: bold;
+	text-align:center;
+	font-size:48px;
+	margin-bottom:14px;
+	color:#3D3D3D;
+}
+
+/* Project Description Styles */
+.project-description {
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin:auto;
+	width:240px;
+}
+
+/* Padding for the button */
+
+.project-description p {
+	text-align:center;
+	color:#ADADAD;
+	margin-bottom:36px;
+}
+
+/* The button below the description */
+
+.CTA-button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:114px;
+    height:10px;
+    padding-top:18px;
+    padding-bottom:18px;
+    background:#3D3D3D;
+    font-size:14px;
+    border-radius:10px;
+    margin-bottom:70px;
+}
+
+/* The button text "Explore */
+
+.CTA-button p {
+	display:block;
+	color:#FAFAFA;
+}
+
+.tablet-cofolios{
+	display:none;
+}
+
+
+
+.dailies {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+/* Fixing sizing for the phones(second project) */ 
+
+.phones-resized{
+	margin-top:69px;
+	width:194px;
+	height:auto;
+}
+
+.phone-resized{
+	margin-top:69px;
+	width:194px;
+	height:auto;
+}
+
+.white h2 {
+	color:#FAFAFA;
+}
+.white {
+	color:#FAFAFA;
+}
+
+.project2-photo {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:34px;
+}
+
+.project2-photo-2{
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:34px;
+}
+
+
+/* Fixing sizing for the phones(second project) */ 
+
+.footer {
+	height:100px;
+	background-color:#FAFAFA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-right {
+	display: flex;
+}
+
+.footer-right a {
+	color:#3D3D3D;
+}
+
+.footer-right a:visited {
+	color:#3D3D3D;
+}
+
+.email {
+	display: flex;
+}
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen  and (min-width : 768px) {
+/* Styles */
+
+.phones-resized{
+	margin-top:0;
+	margin-right:50px;
+}
+
+.phone-resized{
+	margin-top:0;
+	margin-right:50px;
+}
+
+
+.portfolio-margin {
+	margin-top:90px;
+	margin-bottom:90px;
+}
+
+.portfolio-padding {
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+.cofolios{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+
+.intro h1 {
+	font-size:111px;
+	margin-left:-7px;
+}
+
+.black-background {
+	height: 450px;
+	background-image: linear-gradient(to bottom, #282828, #121212);
+}
+
+
+.cofolios-resize{
+	max-width:none;
+	width:358px;
+	height:auto;
+
+}
+
+.project-box{
+	margin-left:454px;
+}
+
+/* Makes sure the blue stick to the left */
+.gold-divider{
+	margin-left:0;
+}
+/* Makes sure the blue stick to the left */
+
+
+.project-text h2{
+	text-align:left;
+	font-size:36px;
+}
+
+/* Optiminzg project description for the phone sizing*/
+
+.project-description {
+	margin:0;
+	max-width:185px;
+}
+.project-description p{
+	text-align:left;
+	font-size:14px;
+}
+
+.CTA-button {
+	margin:0;
+}
+
+.connector {
+	left:50vw;
+	margin-top:130px;
+}
+.white-background{
+	display:none;
+	width:368px;
+	height:600px;
+	float:left;
+}
+
+.cofolios{
+	display:block;
+	float:left;
+	margin:none;
+
+}
+
+
+
+/* Fixing one a days project spacing so it's more visually balances*/
+.oneadays {
+	float:left;
+	margin-left:90px;
+	margin-top:40px;
+}
+.tablet-cofolios{
+	display:block;
+	margin-top:-70px;
+}
+
+
+
+
+.project2-photo {
+	display:block;
+	float:left;
+}
+
+.project2-photo-2{
+	display:block;
+	float:right;
+}
+.connector {
+	left:54vw;
+}
+
+.lines2 {
+	margin-top:370px;
+}
+
+.posters {
+	margin-top: -260px;
+}
+
+}
+
+@media only screen  and (min-width : 900px) {
+
+/* Fixing Stor project spacing */
+
+.phones-resized {
+	margin-right:180px;
+}
+
+.phone-resized {
+	margin-right:180px;
+}
+
+
+}
+@media only screen  and (min-width : 1024px) {
+
+/* My picture */
+
+.my-face {
+	width:350px;
+	margin-top:30px;
+	height: auto;
+}
+
+
+/* About Me Container */
+
+.about-me-flex {
+	display:flex;
+	flex-direction: row;
+	width:900px;
+	align-items: center;
+	margin:auto;
+	justify-content: center;
+	margin-top:160px;
+	margin-bottom:160px;
+}
+
+.about-me-text {
+	margin-bottom:0;
+}
+
+.cofolios-resize {
+	width:548px;
+}
+.folios{
+	margin-left:640px;
+	padding-top:60px;
+}
+
+.folios{
+	padding-top:90px;
+}
+
+
+.project-description {
+	width:260px;
+	max-width: none;
+}
+
+
+.project-description p{
+	font-size:16px;
+}
+
+
+
+
+
+}
+
+@media only screen  and (min-width : 1200px) {
+
+/* Navigation flexed to be in a row & have space between the elements */
+
+nav {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+/* Navigation margin spacing */
+li:nth-child(2){
+	margin-left:40px;
+	margin-right:40px;
+}
+
+
+/* Adjusting Oneadays spacing so it works better on desktop */
+.oneadays {
+	margin-top:141px;
+}
+
+/* Adjusting Oneadays spacing so it works better on desktop */
+.phones-resized {
+	width:344px;
+}
+
+.black-background {
+	height:640px;
+}
+
+
+.lines2 {
+	margin-top:270px;
+}
+
+/* Resizing Cofolios image so it works well on desktop*/
+
+.cofolios-resize{
+	width:730px;
+	margin-left:-120px;
+}
+
+.folios {
+	margin-left:72%;
+	padding-top:140px;
+}
+
+
+
+
+
+}
