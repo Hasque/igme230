@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DOM Exercise 2</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
+        html { font-family: Lato; font-size: 16px; }
+        #navpanel {
+            background-color:pink;
+            width:200px;
+            height:200px;
+        };
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <button id="show">Show</button> <button id="hide">hide</button>
+    <div id="navpanel">
+        <ul>
+            <li>Link 1</li>
+            <li>Link 1</li>
+            <li>Link 1</li>
+        </ul>
+
+    </div>
+
+    <script>
+        $("#hide").click(function(){
+            $("#navpanel").hide(500);
+        });
+
+        $("#show").click(function(){
+            $("#navpanel").show();
+        });
+    </script>
+
+</body>
+</html>
+
+
