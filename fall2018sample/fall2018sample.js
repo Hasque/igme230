@@ -13,3 +13,16 @@ $('#choose-content').change(function(){
     $('#content').load(content);
 
 });
+
+
+let content = ("content1.txt");
+
+$("#choose-content").val(content);
+
+$("#content").load(content);
+
+$("#choose-content").change(function() {
+    content = $(this).val();
+    $("#content").load(content);
+    
+});
