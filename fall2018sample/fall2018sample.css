@@ -1,0 +1,133 @@
+/*********************************
+General Formatting (Do Not Change)
+*********************************/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* sets base font size for rem sizing */
+    font-size: 16px;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: #86af49;
+}
+
+nav,
+aside,
+article {
+    padding: .5rem;
+}
+
+nav, aside {
+    background-color: #b5e7a0;
+}
+
+
+/**************
+Your Formatting
+***************/
+
+
+
+@media screen and ( min-width:320px) {
+
+#wrapper {
+    display:grid;
+    grid-template-columns: 100%;
+    margin:auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "footer"
+}
+
+header {
+    grid-area: header;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    grid-area:nav;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.menu-box {
+    margin:0;
+    padding:0;
+}
+.menuitem{
+    margin:0;
+    padding:0;
+    background-color:white;
+    border-top:1px solid;
+}
+
+.submenu {
+    background-color:grey;
+    margin:0;
+    padding-left:.25rem;
+    list-style:none;
+}
+
+}
+
+
+@media screen and ( min-width:1024px) {
+
+#wrapper {
+    width:90%;
+    min-height:100vh;
+    grid-template-rows: 4rem auto 3rem;
+    grid-template-columns: 1fr 2fr 200px;
+
+    grid-template-areas:
+    "header header header"
+    "left middle right"
+    "footer footer footer"
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: right;
+}
+
+#content {
+    grid-area:middle;
+}
+
+aside {
+    grid-area:left;
+}
+
+footer {
+    grid-area:footer;
+}
+
+
+
+
+
+
+}
