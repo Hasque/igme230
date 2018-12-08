@@ -1,0 +1,79 @@
+
+nav p{
+	color:black !important;
+}
+
+nav li{
+	color:black !important;
+}
+
+nav li a {
+	color:black !important;
+	
+}
+
+.work-chunk h1 {
+	font-size:32px;
+	
+}
+
+
+.work-chunk h2 {
+	font-size:24px;
+	color:#4F95F0;
+}
+
+.position {
+	font-size:18px;
+	margin-bottom:12px;
+}
+
+
+
+.experience {
+	margin-top:72px;
+}
+
+
+
+
+
+
+
+.work-chunk {
+	margin-bottom:56px;
+	max-width:500px;
+}
+
+.intro-name {
+	margin-top:72px;
+}
+
+
+
+@media only screen  and (min-width : 600px) {
+
+
+	.resume-lines {
+		display:flex;
+		justify-content: space-between;
+	}
+
+	.experience {
+		margin-top:72px;
+	}
+
+	.extra-spacing {
+		margin-top:150px;
+	}
+
+	.resume-lines {
+		max-width:1200px;
+	}
+	
+	
+
+
+	  
+
+}

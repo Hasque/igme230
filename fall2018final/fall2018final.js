@@ -2,9 +2,7 @@
 
 $(".list").hide();
 
-
-
-$('.top').click(function() {
+$('.top').toggle(function() {
     $(".list").show();
 });
 
