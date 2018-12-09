@@ -40,6 +40,15 @@ nav a:visited {
 }
 
 
+
+
+.responsive-image {
+	width:100%;
+	height:auto;
+}
+
+
+
 p {
 	margin:0;
 }
@@ -512,6 +521,7 @@ nav p {
 
 
 
+
 .project2-photo {
 	display:block;
 	float:left;
@@ -621,6 +631,21 @@ li:nth-child(2){
 	margin-left:40px;
 	margin-right:40px;
 }
+
+nav a {
+	margin-left:20px;
+}
+
+.documentation-container {
+	max-width:700px;
+	margin:auto;
+}
+
+.documentation-container h5 {
+	font-size:24px;
+	margin-top:72px;
+}
+
 
 
 /* Adjusting Oneadays spacing so it works better on desktop */
