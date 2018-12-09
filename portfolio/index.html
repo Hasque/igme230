@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="css/style.css">
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon/favicon.png">
@@ -42,13 +46,15 @@
     <nav>
 
     <a href="index.html"> <p> Hasque</p> </a>
+
+    <div class="menu"><p>menu</p></div>
+      <div class="hide-me">
       <ol>
-        <a href="index.html"><li>Work</li></a>
         <li><a href="resume.html">Resume</a></li>
         <a href="about.html"><li>About</li></a>
         <a href="documentation.html"><li>Documentation</li></a>
-
       </ol>
+    </div>
 
     </nav>
 </div>
@@ -127,7 +133,7 @@
   <div class="row portfolio-margin">
 
       <div class="cofolios">
-    <img src="images/homepage/cofolios.png" class="cofolios-resize mobile-cofolios" >
+    <img src="images/homepage/cofolios.png" class="cofolios-resize mobile-cofolios"  alt="tiles of companies" >
   </div>
   <div class="project-box folios">
   <div class="gold-divider" >
@@ -154,7 +160,7 @@
 <div class="container">
   <div class="row portfolio-padding">
 <div class="project2-photo-2">
-      <img src="images/homepage/iphonex.png" class="phone-resized">
+      <img src="images/homepage/iphonex.png" class="phone-resized" alt="an iphone with an app inside" >
     </div>
 
   <div class="project-box oneadays">
@@ -190,7 +196,7 @@
 <div class="container">
   <div class="row portfolio-padding">
 <div class="project2-photo">
-      <img src="images/homepage/black_phones.png" class="phones-resized">
+      <img src="images/homepage/black_phones.png" class="phones-resized" alt="2 phones floating">
     </div>
 
   <div class="project-box oneadays">
@@ -240,8 +246,23 @@
 
 </div>
 
+<script>
+
+
+ $(".hide-me").hide(); //hide menu
+
+
+$(".menu").click(function(){ // click the menu
+  $(".hide-me").toggle(); // toggle between showing and hiding elements
+
+});
+
+
+  </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+
 </html>

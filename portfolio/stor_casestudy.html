@@ -17,13 +17,16 @@
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/casestudy_styling.css" <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/style1.css">
+
+    <link rel="stylesheet" href="css/casestudy_styling.css">
   <link rel="icon" type="image/png" href="images/favicon/favicon.png">
 
 </head>
@@ -39,13 +42,15 @@
     <nav>
 
     <a href="index.html"> <span class="black"><p> Hasque</p></span> </a>
-      <ol>
-        <a href="index.html"><span class="black"><li>Work</li></span></a>
-        <li><a href="resume.html">Resume</span></a></li>
-        <a href="about.html"><span class="black"><li>About</li></span></a>
-        <a href="documentation.html"><li>Documentation</li></a>
-
-      </ol>
+    <div class="menu"><p>menu</p></div>
+    <div class="hide-me">
+    <ol>
+      <a href="index.html"><li>Work</li></a>
+      <li><a href="resume.html">Resume</a></li>
+      <a href="about.html"><li>About</li></a>
+      <a href="documentation.html"><li>Documentation</li></a>
+    </ol>
+  </div>
 
     </nav>
 
@@ -528,6 +533,22 @@
   </div>
 
 </div>
+
+
+<script>
+
+
+        $(".hide-me").hide(); //hide menu
+       
+       
+       $(".menu").click(function(){ // click the menu
+         $(".hide-me").toggle(); // toggle between showing and hiding elements
+       
+       });
+       
+       
+         </script>
+
 
 
     <!-- 1st Project 

@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 
@@ -42,13 +43,16 @@
 
       <a href="index.html"><p> Hasque</p> </a>
       <ol>
-        <a href="index.html"><li>Work</li></a>
-        <li><a href="resume.html">Resume</a></li>
-        <a href="about.html"><li>About</li></a>
-        <a href="documentation.html"><li>Documentation</li></a>
-
-      </ol>
-
+          
+          <div class="menu"><p>menu</p></div>
+          <div class="hide-me">
+          <ol>
+            <a href="index.html"><li>Work</li></a>
+            <li><a href="resume.html">Resume</a></li>
+            <a href="about.html"><li>About</li></a>
+            <a href="documentation.html"><li>Documentation</li></a>
+          </ol>
+        </div>
     </nav>
 
     <div class="documentation-container">
@@ -79,7 +83,19 @@
 
 <!-- Global Footer-->
 
+<script>
 
+
+    $(".hide-me").hide(); //hide menu
+   
+   
+   $(".menu").click(function(){ // click the menu
+     $(".hide-me").toggle(); // toggle between showing and hiding elements
+   
+   });
+   
+   
+     </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
