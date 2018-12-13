@@ -4,10 +4,14 @@
 
 $(".submenu").hide();
 
-
 $(".menu").click(function(){
-    $(".submenu").toggle();
+    $(this).next(".submenu").toggle();
 });
+
+
+//$(".menu").click(function(){
+  //  $(".submenu").toggle();
+// });
 
 
 
