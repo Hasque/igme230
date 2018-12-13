@@ -2,8 +2,9 @@
 
 $(".list").hide();
 
-$('.top').toggle(function() {
-    $(".list").show();
+/* first part */
+$(".menubox").click(function(){
+    $(this).find(".submenu").toggle();
 });
 
 
