@@ -9,10 +9,6 @@ $(".menu").click(function(){
 });
 
 
-//$(".menu").click(function(){
-  //  $(".submenu").toggle();
-// });
-
 
 
 
